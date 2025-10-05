@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="This page contains the achievements from Kingdom Hearts 1.5"
+    />
+    <meta name="keywords" content="kingdom hearts, project" />
+    <meta name="author" content="Rixuk" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>KH 1.5 Achievements</title>
 </head>
 <body>
-    
+    <div class="page">
+    <header class="header">
+        <h1 class="header__title">Kingdom Hearts 1.5 HD REmix Achievements</h1>
+    </header>
+    <main class="content">
+        <section class="achievements"></section>
+    </main>
+    <footer class="footer">
+        <p class="footer__description"></p>
+    </footer>
+    </div>
+    <!--Templates-->
+    <template id="achievements__template">
+        <div class="achievements__card">
+            <h2 class="achievemets__title"></h2>
+            <img class="achievements__trophy-image" src="" alt="">
+            <p class="achievements__description"></p>
+        </div>
+    </template>
 </body>
 </html>
