@@ -1,0 +1,14 @@
+.achievements {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 0px 50px;
+}
+.achievements__card{
+    border: 1px solid #2a3249;
+    border-radius: 50px 0 0 50px;
+    display: flex;
+    box-shadow: #2a3249 0px 0px 20px;
+}
