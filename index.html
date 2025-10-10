@@ -19,11 +19,15 @@
     </header>
     <main class="content">
         <section class="achievements">
-            <div class="achievements__card">
-                <h2 class="achievemets__title">La madriguera del Conejo</h2>
+        <div class="achievements__card">
+            <div class="achievements__left-column">
                 <img class="achievements__trophy-image" src="https://images.steamusercontent.com/ugc/2508025646346684491/9E5714D2930B35B159DB0CCB20E07205FAA44296/" alt="alice achievement">
+            </div>
+            <div class="achievemets__right-column">
+                <h2 class="achievemets__title">La madriguera del Conejo</h2>
                 <p class="achievements__description">Sella la cerradura en el país de las Maravillas</p>
             </div>
+        </div>
         </section>
     </main>
     <footer class="footer">
@@ -33,9 +37,13 @@
     <!--Templates-->
     <template id="achievements__template">
         <div class="achievements__card">
-            <h2 class="achievemets__title"></h2>
-            <img class="achievements__trophy-image" src="" alt="">
-            <p class="achievements__description"></p>
+            <div class="achievements__left-column">
+                <img class="achievements__trophy-image" src="" alt="">
+            </div>
+            <div class="achievemets__right-column">
+                <h2 class="achievemets__title">/h2>
+                <p class="achievements__description"></p>
+            </div>
         </div>
     </template>
 </body>
